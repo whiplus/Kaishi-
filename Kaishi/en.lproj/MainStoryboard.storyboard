@@ -1,26 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="KSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3dO-uc-PLq"/>
+                        <viewControllerLayoutGuide type="bottom" id="ynl-qm-dxX"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCd-F7-rJ2">
+                                <rect key="frame" x="115" y="350" width="90" height="90"/>
+                                <rect key="contentStretch" x="1.3877787807814457e-17" y="0.0" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Yls-5x-ODS"/>
+                                    <constraint firstAttribute="width" constant="90" id="cq2-Sb-x6O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" image="circle.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="2" eventType="touchUpInside" id="OBT-f2-iOZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" misplaced="YES" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUJ-fd-KdL">
+                                <rect key="frame" x="39" y="80" width="243" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="AWi-A2-ha5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text=" " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="243" translatesAutoresizingMaskIntoConstraints="NO" id="t9p-O9-UGp">
+                                <rect key="frame" x="39" y="187" width="243" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="LLq-6Y-yVR"/>
+                                    <constraint firstAttribute="height" constant="48" id="VWr-hz-Cl6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUV-yS-CZH">
+                                <rect key="frame" x="139" y="394" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="redraw" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ilb-B1-hhG">
+                                <rect key="frame" x="98" y="-2" width="125" height="5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="gnl-oa-xKL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ilb-B1-hhG" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="BfB-V1-aTr"/>
+                            <constraint firstAttribute="bottom" secondItem="BCd-F7-rJ2" secondAttribute="bottom" constant="40" id="QT4-Bt-ftz"/>
+                            <constraint firstItem="Ilb-B1-hhG" firstAttribute="centerX" secondItem="t9p-O9-UGp" secondAttribute="centerX" id="S6h-aD-QS0"/>
+                            <constraint firstItem="t9p-O9-UGp" firstAttribute="top" secondItem="3" secondAttribute="top" constant="187" id="SSv-O5-j8W"/>
+                            <constraint firstItem="sUV-yS-CZH" firstAttribute="centerX" secondItem="t9p-O9-UGp" secondAttribute="centerX" id="T4d-kR-eCc"/>
+                            <constraint firstItem="t9p-O9-UGp" firstAttribute="trailing" secondItem="JUJ-fd-KdL" secondAttribute="trailing" id="YSe-X5-cmZ"/>
+                            <constraint firstItem="Ilb-B1-hhG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="-2" id="fSg-QK-YO6"/>
+                            <constraint firstItem="JUJ-fd-KdL" firstAttribute="leading" secondItem="t9p-O9-UGp" secondAttribute="leading" id="ieP-h9-cAQ"/>
+                            <constraint firstAttribute="bottom" secondItem="sUV-yS-CZH" secondAttribute="bottom" constant="65" id="qO8-5l-2n7"/>
+                            <constraint firstItem="sUV-yS-CZH" firstAttribute="centerX" secondItem="BCd-F7-rJ2" secondAttribute="centerX" id="sx4-Uc-lr8"/>
+                            <constraint firstItem="Ilb-B1-hhG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="98" id="yCN-0u-z1R"/>
+                            <constraint firstItem="JUJ-fd-KdL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="80" id="zp1-yG-2sc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonLabel" destination="sUV-yS-CZH" id="ZIb-dh-p6e"/>
+                        <outlet property="modeBar" destination="Ilb-B1-hhG" id="siV-6a-f8f"/>
+                        <outlet property="myButton" destination="BCd-F7-rJ2" id="2YJ-4j-ISC"/>
+                        <outlet property="taskSum" destination="t9p-O9-UGp" id="Jpn-Gy-JDv"/>
+                        <outlet property="timeLabel" destination="JUJ-fd-KdL" id="bps-yn-iVA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="179" y="19"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circle.png" width="132" height="133"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

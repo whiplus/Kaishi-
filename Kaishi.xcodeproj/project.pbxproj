@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7736F6176981D6009CD163 /* miso-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7736F5176981D6009CD163 /* miso-bold.otf */; };
+		4D7736F81769A265009CD163 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7736F71769A265009CD163 /* AudioToolbox.framework */; };
 		4D7ADAF817685CB500F24943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7ADAF717685CB500F24943 /* UIKit.framework */; };
 		4D7ADAFA17685CB500F24943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7ADAF917685CB500F24943 /* Foundation.framework */; };
 		4D7ADAFC17685CB500F24943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7ADAFB17685CB500F24943 /* CoreGraphics.framework */; };
 		4D7ADB0217685CB500F24943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0017685CB500F24943 /* InfoPlist.strings */; };
 		4D7ADB0417685CB500F24943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0317685CB500F24943 /* main.m */; };
 		4D7ADB0817685CB500F24943 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0717685CB500F24943 /* KSAppDelegate.m */; };
-		4D7ADB0A17685CB500F24943 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0917685CB500F24943 /* Default.png */; };
-		4D7ADB0C17685CB500F24943 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0B17685CB500F24943 /* Default@2x.png */; };
-		4D7ADB0E17685CB500F24943 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0D17685CB500F24943 /* Default-568h@2x.png */; };
 		4D7ADB1117685CB500F24943 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7ADB0F17685CB500F24943 /* MainStoryboard.storyboard */; };
 		4D7ADB1417685CB500F24943 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB1317685CB500F24943 /* KSViewController.m */; };
+		4D7ADB1C17685CF100F24943 /* KSTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB1B17685CF100F24943 /* KSTimeLabel.m */; };
+		4D7ADB1F17685D8300F24943 /* KSMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB1E17685D8300F24943 /* KSMode.m */; };
+		4D7ADB2217687C2700F24943 /* KSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7ADB2117687C2700F24943 /* KSTimer.m */; };
+		4DB18912176A30B900F09BCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB18911176A30B900F09BCF /* QuartzCore.framework */; };
+		4DB944DB176AB38C00601D73 /* KSIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB944DA176AB38C00601D73 /* KSIcon.png */; };
+		4DB944DD176AB39300601D73 /* KSIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB944DC176AB39300601D73 /* KSIcon@2x.png */; };
+		4DB944DF176AB57600601D73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB944DE176AB57500601D73 /* Default@2x.png */; };
+		4DB944E1176ABC8400601D73 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB944E0176ABC8400601D73 /* Default-568h@2x.png */; };
+		4DB944E3176ABCAD00601D73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB944E2176ABCAD00601D73 /* Default.png */; };
+		4DE22C941769FB1500B3CBBB /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE22C931769FB1500B3CBBB /* circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D7736F5176981D6009CD163 /* miso-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "miso-bold.otf"; sourceTree = "<group>"; };
+		4D7736F71769A265009CD163 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4D7ADAF417685CB500F24943 /* Kaishi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaishi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7ADAF717685CB500F24943 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D7ADAF917685CB500F24943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +42,22 @@
 		4D7ADB0517685CB500F24943 /* Kaishi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kaishi-Prefix.pch"; sourceTree = "<group>"; };
 		4D7ADB0617685CB500F24943 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		4D7ADB0717685CB500F24943 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
-		4D7ADB0917685CB500F24943 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4D7ADB0B17685CB500F24943 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4D7ADB0D17685CB500F24943 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D7ADB1017685CB500F24943 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4D7ADB1217685CB500F24943 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
 		4D7ADB1317685CB500F24943 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		4D7ADB1A17685CF100F24943 /* KSTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTimeLabel.h; sourceTree = "<group>"; };
+		4D7ADB1B17685CF100F24943 /* KSTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTimeLabel.m; sourceTree = "<group>"; };
+		4D7ADB1D17685D8300F24943 /* KSMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMode.h; sourceTree = "<group>"; };
+		4D7ADB1E17685D8300F24943 /* KSMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMode.m; sourceTree = "<group>"; };
+		4D7ADB2017687C2700F24943 /* KSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTimer.h; sourceTree = "<group>"; };
+		4D7ADB2117687C2700F24943 /* KSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTimer.m; sourceTree = "<group>"; };
+		4DB18911176A30B900F09BCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DB944DA176AB38C00601D73 /* KSIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KSIcon.png; path = ../KSIcon.png; sourceTree = "<group>"; };
+		4DB944DC176AB39300601D73 /* KSIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KSIcon@2x.png"; path = "../KSIcon@2x.png"; sourceTree = "<group>"; };
+		4DB944DE176AB57500601D73 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		4DB944E0176ABC8400601D73 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DB944E2176ABCAD00601D73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		4DE22C931769FB1500B3CBBB /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB18912176A30B900F09BCF /* QuartzCore.framework in Frameworks */,
+				4D7736F81769A265009CD163 /* AudioToolbox.framework in Frameworks */,
 				4D7ADAF817685CB500F24943 /* UIKit.framework in Frameworks */,
 				4D7ADAFA17685CB500F24943 /* Foundation.framework in Frameworks */,
 				4D7ADAFC17685CB500F24943 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +96,8 @@
 		4D7ADAF617685CB500F24943 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DB18911176A30B900F09BCF /* QuartzCore.framework */,
+				4D7736F71769A265009CD163 /* AudioToolbox.framework */,
 				4D7ADAF717685CB500F24943 /* UIKit.framework */,
 				4D7ADAF917685CB500F24943 /* Foundation.framework */,
 				4D7ADAFB17685CB500F24943 /* CoreGraphics.framework */,
@@ -83,12 +108,20 @@
 		4D7ADAFD17685CB500F24943 /* Kaishi */ = {
 			isa = PBXGroup;
 			children = (
+				4DE22C931769FB1500B3CBBB /* circle.png */,
 				4D7ADB0617685CB500F24943 /* KSAppDelegate.h */,
 				4D7ADB0717685CB500F24943 /* KSAppDelegate.m */,
 				4D7ADB0F17685CB500F24943 /* MainStoryboard.storyboard */,
 				4D7ADB1217685CB500F24943 /* KSViewController.h */,
 				4D7ADB1317685CB500F24943 /* KSViewController.m */,
+				4D7ADB1D17685D8300F24943 /* KSMode.h */,
+				4D7ADB1E17685D8300F24943 /* KSMode.m */,
+				4D7ADB2017687C2700F24943 /* KSTimer.h */,
+				4D7ADB2117687C2700F24943 /* KSTimer.m */,
+				4D7ADB1A17685CF100F24943 /* KSTimeLabel.h */,
+				4D7ADB1B17685CF100F24943 /* KSTimeLabel.m */,
 				4D7ADAFE17685CB500F24943 /* Supporting Files */,
+				4D7ADB231768925B00F24943 /* Temporary Files */,
 			);
 			path = Kaishi;
 			sourceTree = "<group>";
@@ -96,15 +129,25 @@
 		4D7ADAFE17685CB500F24943 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DB944E2176ABCAD00601D73 /* Default.png */,
+				4DB944DC176AB39300601D73 /* KSIcon@2x.png */,
+				4DB944DA176AB38C00601D73 /* KSIcon.png */,
+				4DB944E0176ABC8400601D73 /* Default-568h@2x.png */,
+				4DB944DE176AB57500601D73 /* Default@2x.png */,
+				4D7736F5176981D6009CD163 /* miso-bold.otf */,
 				4D7ADAFF17685CB500F24943 /* Kaishi-Info.plist */,
 				4D7ADB0017685CB500F24943 /* InfoPlist.strings */,
 				4D7ADB0317685CB500F24943 /* main.m */,
 				4D7ADB0517685CB500F24943 /* Kaishi-Prefix.pch */,
-				4D7ADB0917685CB500F24943 /* Default.png */,
-				4D7ADB0B17685CB500F24943 /* Default@2x.png */,
-				4D7ADB0D17685CB500F24943 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7ADB231768925B00F24943 /* Temporary Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Temporary Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +179,11 @@
 				CLASSPREFIX = KS;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Whiplus;
+				TargetAttributes = {
+					4D7ADAF317685CB500F24943 = {
+						DevelopmentTeam = FT28GWU4BD;
+					};
+				};
 			};
 			buildConfigurationList = 4D7ADAEF17685CB500F24943 /* Build configuration list for PBXProject "Kaishi" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -160,10 +208,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7ADB0217685CB500F24943 /* InfoPlist.strings in Resources */,
-				4D7ADB0A17685CB500F24943 /* Default.png in Resources */,
-				4D7ADB0C17685CB500F24943 /* Default@2x.png in Resources */,
-				4D7ADB0E17685CB500F24943 /* Default-568h@2x.png in Resources */,
 				4D7ADB1117685CB500F24943 /* MainStoryboard.storyboard in Resources */,
+				4D7736F6176981D6009CD163 /* miso-bold.otf in Resources */,
+				4DE22C941769FB1500B3CBBB /* circle.png in Resources */,
+				4DB944DB176AB38C00601D73 /* KSIcon.png in Resources */,
+				4DB944DD176AB39300601D73 /* KSIcon@2x.png in Resources */,
+				4DB944DF176AB57600601D73 /* Default@2x.png in Resources */,
+				4DB944E1176ABC8400601D73 /* Default-568h@2x.png in Resources */,
+				4DB944E3176ABCAD00601D73 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +229,9 @@
 				4D7ADB0417685CB500F24943 /* main.m in Sources */,
 				4D7ADB0817685CB500F24943 /* KSAppDelegate.m in Sources */,
 				4D7ADB1417685CB500F24943 /* KSViewController.m in Sources */,
+				4D7ADB1C17685CF100F24943 /* KSTimeLabel.m in Sources */,
+				4D7ADB1F17685D8300F24943 /* KSMode.m in Sources */,
+				4D7ADB2217687C2700F24943 /* KSTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +316,14 @@
 		4D7ADB1817685CB500F24943 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kaishi/Kaishi-Prefix.pch";
 				INFOPLIST_FILE = "Kaishi/Kaishi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +331,14 @@
 		4D7ADB1917685CB500F24943 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kaishi/Kaishi-Prefix.pch";
 				INFOPLIST_FILE = "Kaishi/Kaishi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +362,7 @@
 				4D7ADB1917685CB500F24943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
